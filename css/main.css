@@ -627,8 +627,11 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 
-@media (max-width:643px){
-    #imgg{
+@media (max-width:991.9px){
+    header.container-fluid .row nav ul{
+        flex-direction: column;
+    }
+    #imgg-fluid{
         display: none;
     }
 }
